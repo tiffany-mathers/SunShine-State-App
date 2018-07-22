@@ -18,7 +18,10 @@
 .env.development.local
 .env.test.local
 .env.production.local
+./host/host.js
 /host.js
+host.js
+src/host/host.js
 
 npm-debug.log*
 yarn-debug.log*
