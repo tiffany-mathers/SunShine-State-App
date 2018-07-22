@@ -2,10 +2,9 @@
 import React from 'react';
 import Message from './Message';
 import {host} from "./host/host";
+
 // Connect to MQTT server and subscribe to relevant topic.
 const mqtt = require('mqtt');
-//const host = 'ws://vps317831.ovh.net:9001';
-
 const client = mqtt.connect(host);
 const topic = "home/#"
 client.on('connect', function() {
