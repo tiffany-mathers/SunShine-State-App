@@ -6,6 +6,6 @@ import SunShineState from './SunShineState';
 /* import registerServiceWorker from './registerServiceWorker';
    registerServiceWorker(); */
 
-// Render our react app within the div with a 'root' id
+// Render our react app within the div with a 'root' id.
 ReactDOM.render(<SunShineState />, document.getElementById('root'));
 
