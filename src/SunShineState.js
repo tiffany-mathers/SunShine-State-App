@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import './css/App.css';
 import MessageList from "./MessageList";
 
-class App extends Component {
+class SunShineState extends Component {
   render() {
-
     return (
       <div className="App">
         <div className='App-header'>
